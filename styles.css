@@ -22,7 +22,7 @@ body {
     z-index: 1;
     width: 20vw;
     background-color: white;
-    border-radius: 8px;
+    border-radius: 0.75rem;
     font-family: ubuntu;
 }
 
@@ -41,6 +41,14 @@ body {
 
 #credits {
     font-size: 0.75rem;
+}
+
+#cancelIcon {
+    width: 1.25rem !important;
+    height: 1.25rem;
+    float: right;
+    margin: 0.25rem 0.25rem 0 0;
+    cursor: pointer;
 }
 
 .cesium-viewer-timelineContainer,

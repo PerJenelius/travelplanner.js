@@ -50,7 +50,8 @@ const updateInfobox = (id) => {
     if (newPost) {
         const container = document.querySelector('#infoContainer');
         container.innerHTML = 
-            `<h2>${newPost.name}</h2>
+            `<img src='icons/cancel.svg' id='cancelIcon' onClick=closeInfobox() />
+            <h2>${newPost.name}</h2>
             <p>${newPost.area}</p>
             <img src=${newPost.imageUrl} />
             <p id='credits'>${newPost.imageCredits}</p>
@@ -58,6 +59,10 @@ const updateInfobox = (id) => {
         container.classList.remove('display-none');
         app.postId = id;
     }
+}
+
+const closeInfobox = () => {
+    document.querySelector('#infoContainer').classList.add('display-none');
 }
 
 const flyToStart = () => {
