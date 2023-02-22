@@ -17,11 +17,10 @@ body {
 
 #infoContainer {
     position: absolute;
-    top: 1em;
-    left: 1em;
+    top: 1rem;
+    left: 1rem;
     z-index: 1;
     width: 20vw;
-    padding-bottom: 0.5em;
     background-color: white;
     border-radius: 8px;
     font-family: ubuntu;
@@ -33,11 +32,11 @@ body {
 
 #infoContainer h2 {
     font-size: 1.25rem;
-    margin: 0.5em 1em;
+    margin: 0.5rem 1rem;
 }
 
 #infoContainer p {
-    margin: 0.5em 1em;
+    margin: 0.5rem 1rem 0.75rem 1rem;
 }
 
 #credits {
