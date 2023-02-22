@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#cesiumContainer {
+    margin: 0;
+    padding: 0;
+}
+
+#cesiumContainer canvas {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#infoContainer {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    z-index: 1;
+    width: 20vw;
+    padding-bottom: 0.5em;
+    background-color: white;
+    border-radius: 8px;
+    font-family: ubuntu;
+}
+
+#infoContainer img {
+    width: 100%;
+}
+
+#infoContainer h2 {
+    font-size: 1.25rem;
+    margin: 0.5em 1em;
+}
+
+#infoContainer p {
+    margin: 0.5em 1em;
+}
+
+#credits {
+    font-size: 0.75rem;
+}
+
+.cesium-viewer-timelineContainer,
+.cesium-viewer-bottom,
+.cesium-viewer-fullscreenContainer,
+.cesium-viewer-animationContainer,
+.cesium-viewer-toolbar,
+.cesium-viewer-selectionIndicatorContainer,
+.cesium-button.cesium-infoBox-camera,
+.cesium-infoBox {
+    display: none !important;
+}
+
+.display-none {
+    display: none;
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url('fonts/Ubuntu-Regular.ttf');
+}

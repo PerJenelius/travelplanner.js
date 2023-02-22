@@ -1,0 +1,32 @@
+const posts = [
+    {
+        name: 'Times Square',
+        area: 'New York',
+        id: '0',
+        longitude: '40.75799348110143',
+        latitude: '-73.98554744736259', 
+        imageUrl: 'images_example/times_square.jpeg',
+        imageCredits: 'Picture by Yuting Gao @ pexels.com',
+        description: 'The heart of New York (Arguably)',
+    },
+    {
+        name: 'Cristo Redentor',
+        area: 'Rio de Janeiro',
+        id: '1',
+        longitude: '-22.952035217742775',
+        latitude: '-43.210502585105566', 
+        imageUrl: 'images_example/cristo_redentor.jpeg',
+        imageCredits: 'Picture by Athena @ pexels.com',
+        description: 'The gigantic statue overlooking the city',
+    },
+    {
+        name: 'Tower Bridge',
+        area: 'London',
+        id: '2',
+        longitude: '51.50555648525269',
+        latitude: '-0.07537796590526283', 
+        imageUrl: 'images_example/tower_bridge.jpeg',
+        imageCredits: 'Picture by Yoss Traore @ pexels.com',
+        description: 'A famous Victorian era bridge',
+    },
+]
